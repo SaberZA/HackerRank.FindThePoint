@@ -7,6 +7,22 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerRank.FindThePoint.Tes
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerRank.FindThePoint.Console", "HackerRank.FindThePoint.Console\HackerRank.FindThePoint.Console.csproj", "{A70BAB50-1E4E-4522-B9D1-95F1F7A4F98C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problems.Common", "Problems.Common\Problems.Common.csproj", "{E7D189AD-5CAC-4B3D-8DF8-7160FAFF99F8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FindThePoint", "FindThePoint", "{B64E5659-9EC8-4357-B5F6-F1211E2FEE47}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MaximumDraws", "MaximumDraws", "{9647EEA0-0E91-4214-8A90-F911A5B83A0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerRank.MaximumDraws.Test", "HackerRank.MaximumDraws.Test\HackerRank.MaximumDraws.Test.csproj", "{B59AF398-4871-4A0B-94C7-F363B5556CEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerRank.MaximumDraws.Console", "HackerRank.MaximumDraws.Console\HackerRank.MaximumDraws.Console.csproj", "{560D9527-D127-449C-A252-CF6A8E31EDA7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Handshake", "Handshake", "{CC3F18DB-05BE-4391-89E4-78D6A272D33D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerRank.Handshake", "HackerRank.Handshake\HackerRank.Handshake.csproj", "{7E6B3B6E-9460-4EFD-AF4D-DCB70CF86A11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerRank.Handshake.Test", "HackerRank.Handshake.Test\HackerRank.Handshake.Test.csproj", "{BB5C9323-8521-4853-93FD-9F0A1962D338}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,8 +37,36 @@ Global
 		{A70BAB50-1E4E-4522-B9D1-95F1F7A4F98C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A70BAB50-1E4E-4522-B9D1-95F1F7A4F98C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A70BAB50-1E4E-4522-B9D1-95F1F7A4F98C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7D189AD-5CAC-4B3D-8DF8-7160FAFF99F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7D189AD-5CAC-4B3D-8DF8-7160FAFF99F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7D189AD-5CAC-4B3D-8DF8-7160FAFF99F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7D189AD-5CAC-4B3D-8DF8-7160FAFF99F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B59AF398-4871-4A0B-94C7-F363B5556CEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B59AF398-4871-4A0B-94C7-F363B5556CEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B59AF398-4871-4A0B-94C7-F363B5556CEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B59AF398-4871-4A0B-94C7-F363B5556CEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{560D9527-D127-449C-A252-CF6A8E31EDA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{560D9527-D127-449C-A252-CF6A8E31EDA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{560D9527-D127-449C-A252-CF6A8E31EDA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{560D9527-D127-449C-A252-CF6A8E31EDA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E6B3B6E-9460-4EFD-AF4D-DCB70CF86A11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E6B3B6E-9460-4EFD-AF4D-DCB70CF86A11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E6B3B6E-9460-4EFD-AF4D-DCB70CF86A11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E6B3B6E-9460-4EFD-AF4D-DCB70CF86A11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB5C9323-8521-4853-93FD-9F0A1962D338}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB5C9323-8521-4853-93FD-9F0A1962D338}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB5C9323-8521-4853-93FD-9F0A1962D338}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB5C9323-8521-4853-93FD-9F0A1962D338}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CC2F98C8-5FF6-4171-8745-CE99B2B24CA4} = {B64E5659-9EC8-4357-B5F6-F1211E2FEE47}
+		{A70BAB50-1E4E-4522-B9D1-95F1F7A4F98C} = {B64E5659-9EC8-4357-B5F6-F1211E2FEE47}
+		{B59AF398-4871-4A0B-94C7-F363B5556CEB} = {9647EEA0-0E91-4214-8A90-F911A5B83A0C}
+		{560D9527-D127-449C-A252-CF6A8E31EDA7} = {9647EEA0-0E91-4214-8A90-F911A5B83A0C}
+		{7E6B3B6E-9460-4EFD-AF4D-DCB70CF86A11} = {CC3F18DB-05BE-4391-89E4-78D6A272D33D}
+		{BB5C9323-8521-4853-93FD-9F0A1962D338} = {CC3F18DB-05BE-4391-89E4-78D6A272D33D}
 	EndGlobalSection
 EndGlobal

@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A70BAB50-1E4E-4522-B9D1-95F1F7A4F98C}</ProjectGuid>
+    <ProjectGuid>{560D9527-D127-449C-A252-CF6A8E31EDA7}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>HackerRank.FindThePoint.Console</RootNamespace>
-    <AssemblyName>HackerRank.FindThePoint.Console</AssemblyName>
+    <RootNamespace>HackerRank.MaximumDraws.Console</RootNamespace>
+    <AssemblyName>HackerRank.MaximumDraws.Console</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -48,12 +48,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Problems.Common\Problems.Common.csproj">
-      <Project>{e7d189ad-5cac-4b3d-8df8-7160faff99f8}</Project>
-      <Name>Problems.Common</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

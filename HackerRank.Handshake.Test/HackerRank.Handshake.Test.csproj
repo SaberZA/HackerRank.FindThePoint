@@ -3,11 +3,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{CC2F98C8-5FF6-4171-8745-CE99B2B24CA4}</ProjectGuid>
+    <ProjectGuid>{BB5C9323-8521-4853-93FD-9F0A1962D338}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>HackerRank.FindThePoint.Test</RootNamespace>
-    <AssemblyName>HackerRank.FindThePoint.Test</AssemblyName>
+    <RootNamespace>HackerRank.Handshake.Test</RootNamespace>
+    <AssemblyName>HackerRank.Handshake.Test</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -50,7 +50,7 @@
     <Otherwise />
   </Choose>
   <ItemGroup>
-    <Compile Include="MathematicsFindThePointTest.cs" />
+    <Compile Include="HandshakeProblemTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -61,6 +61,10 @@
       <Project>{e7d189ad-5cac-4b3d-8df8-7160faff99f8}</Project>
       <Name>Problems.Common</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="input.txt" />
+    <Content Include="output.txt" />
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

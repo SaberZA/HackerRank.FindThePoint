@@ -1,51 +1,49 @@
-﻿using NUnit.Framework;
-using Problems.Common;
+﻿using System;
+using NUnit.Framework;
 using Problems.Common.Problems;
 
-namespace HackerRank.FindThePoint.Test
+namespace HackerRank.Handshake.Test
 {
     [TestFixture]
-    public class MathematicsFindThePointTest
+    public class HandshakeProblemTest
     {
         [Test]
-        public void Construct_MathSolver_ShouldNotBeNull()
+        public void Construct_HandshakeProblem()
         {
             //---------------Set up test pack-------------------
             
             //---------------Assert Precondition----------------
 
             //---------------Execute Test ----------------------
-            var mathSolver = new MathSolver();
+            var handshakeProblem = new HandshakeProblem("0");
             //---------------Test Result -----------------------
-            Assert.IsNotNull(mathSolver);
+            Assert.IsNotNull(handshakeProblem);
         }
 
         [Test]
-        public void FindThePointProblem_Given0011_ShouldReturn22()
+        public void Solve_Given5277_Should13920726()
         {
             //---------------Set up test pack-------------------
-            var mathSolver = new MathSolver();
-            var findThePointProblem = new FindThePointProblem("0 0 1 1");
+            var handshakeProblem = new HandshakeProblem("5277");
             //---------------Assert Precondition----------------
 
             //---------------Execute Test ----------------------
-            var result = mathSolver.Solve(findThePointProblem);
+            var result = handshakeProblem.Solve();
             //---------------Test Result -----------------------
-            Assert.AreEqual("2 2", result);
+            Assert.AreEqual("13920726", result);
         }
 
         [Test]
-        public void FindThePointProblem_Given1122_ShouldReturn33()
+        public void Solve_Given9302_Should43258951()
         {
             //---------------Set up test pack-------------------
-            var mathSolver = new MathSolver();
-            var findThePointProblem = new FindThePointProblem("1 1 2 2");
+            var handshakeProblem = new HandshakeProblem("9302");
             //---------------Assert Precondition----------------
 
             //---------------Execute Test ----------------------
-            var result = mathSolver.Solve(findThePointProblem);
+            var result = handshakeProblem.Solve();
             //---------------Test Result -----------------------
-            Assert.AreEqual("3 3", result);
+            Assert.AreEqual("43258951", result);
         }
     }
 }
